@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+
+    transition: width 0.7s;
+    overflow: hidden;
+    position: fixed;
+    width: 15%;
+    height: 100vh;
+    color: black;
+    border-right: 6px solid #E1DDDB;
+    background-color: #0E4A60;
+    font-size: 20px;
+
+}
+
+.sidenav ul li {
+    padding: 10px;
+    font-size:15px;
+}
+
+.sidenav ul li a{
+    text-decoration: none;
+    color: #E1DDDB;
+}
+
+.sidenav ul  .active {
+    
+    border-radius: 6px;
+    background-color:#57b3d4;
+}
+
+ul li:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #0E4A60;
+}
+.sidenav ul {
+    margin-left:-13px;
+    list-style: none;
+}
+
+
+.sidenav button {
+    margin-top: 20px;
+    margin-left: 80%;
+    background-color: transparent;
+    border: none;
+    
+    font-size: 20px;
+}
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+  background-size: cover;
+  /* background-repeat: 0; */
+  }
